@@ -3,9 +3,15 @@ function preload(){
 }
 
 function setup() {
-  // put setup code here
+  createCanvas(windowWidth, windowHeight);
+
+  background("dimgray");
+
 }
 
 function draw() {
-  // put drawing code here
+  ellipse(300, 300, 250);
+
+
+
 }
